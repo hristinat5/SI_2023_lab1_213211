@@ -1,0 +1,29 @@
+commit 02494cec9694979cf0cc9b4e3f0130a6c4a193ef (HEAD -> master, origin/master, origin/bug3, bug3)
+Merge: 9430d4a bf1b68a
+Author: hristina6 <109043256+hristina6@users.noreply.github.com>
+Date:   Sun Apr 9 18:36:13 2023 +0200
+
+    Merge branch 'bug3'
+
+commit 9430d4a64f24a1fa7679dc8b54791d03fac71db1
+Merge: 6f5bdae cb9a8fe
+Author: hristina6 <109043256+hristina6@users.noreply.github.com>
+Date:   Sun Apr 9 18:32:08 2023 +0200
+
+    Merge branch 'bug2'
+
+commit bf1b68a5a82e6a2fa2d4bcb2f854dcc4c15a39ec
+Author: hristina6 <109043256+hristina6@users.noreply.github.com>
+Date:   Sun Apr 9 18:21:10 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit cb9a8fe44ca23abd0d585c9f3374dc26ee507144 (origin/bug2, bug2)
+Author: hristina6 <109043256+hristina6@users.noreply.github.com>
+Date:   Sun Apr 9 18:17:44 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 6f5bdaed434054e91e69efd367632643003d9901 (origin/bug1, bug1)
+Author: hristina6 <109043256+hristina6@users.noreply.github.com>
+Date:   Sun Apr 9 18:10:29 2023 +0200
