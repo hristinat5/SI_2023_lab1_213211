@@ -1,0 +1,86 @@
+4. C:\Users\Kiki\SI_2023_lab1_213211>git init
+Initialized empty Git repository in C:/Users/Kiki/SI_2023_lab1_213211/.git/
+
+5. C:\Users\Kiki\SI_2023_lab1_213211>git remote add origin https://github.com/hristinat5/SI_2023_lab1_213211.git
+
+6. C:\Users\Kiki\SI_2023_lab1_213211>git add README.md
+C:\Users\Kiki\SI_2023_lab1_213211>git commit -m "Initial commit"
+
+7. C:\Users\Kiki\SI_2023_lab1_213211>notepad SILab1.java
+C:\Users\Kiki\SI_2023_lab1_213211>git add SILab1.java
+C:\Users\Kiki\SI_2023_lab1_213211>git commit -m "Add java Class"
+
+8. C:\Users\Kiki\SI_2023_lab1_213211>git push -u origin master
+
+9. C:\Users\Kiki\SI_2023_lab1_213211>git branch bug1
+C:\Users\Kiki\SI_2023_lab1_213211>git branch bug2
+C:\Users\Kiki\SI_2023_lab1_213211>git branch bug3
+
+10. C:\Users\Kiki\SI_2023_lab1_213211>git checkout bug1
+
+11. C:\Users\Kiki\SI_2023_lab1_213211>notepad SILab1.java
+C:\Users\Kiki\SI_2023_lab1_213211>git add SILab1.java
+C:\Users\Kiki\SI_2023_lab1_213211>git commit -m "Fix wrong loop for reading"
+
+12. C:\Users\Kiki\SI_2023_lab1_213211>git checkout bug2
+
+13. C:\Users\Kiki\SI_2023_lab1_213211>notepad SILab1.java
+C:\Users\Kiki\SI_2023_lab1_213211>git add SILab1.java
+C:\Users\Kiki\SI_2023_lab1_213211>git commit -m "Fix wrong condition in filterOddNumbers"
+[bug2 cb9a8fe] Fix wrong condition in filterOddNumbers
+ 1 file changed, 1 insertion(+), 1 deletion(-) 
+
+14. C:\Users\Kiki\SI_2023_lab1_213211>git checkout bug3
+Switched to branch 'bug3'
+
+15. C:\Users\Kiki\SI_2023_lab1_213211>notepad SILab1.java
+C:\Users\Kiki\SI_2023_lab1_213211>git add SILab1.java
+C:\Users\Kiki\SI_2023_lab1_213211>git commit -m "Fix method sumEvenNumbers"
+[bug3 bf1b68a] Fix method sumEvenNumbers
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+16. C:\Users\Kiki\SI_2023_lab1_213211>git push origin --all
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 833 bytes | 833.00 KiB/s, done.
+Total 9 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 1 local object.
+To https://github.com/hristinat5/SI_2023_lab1_213211.git
+ * [new branch]      bug1 -> bug1
+ * [new branch]      bug2 -> bug2
+ * [new branch]      bug3 -> bug3
+
+17. C:\Users\Kiki\SI_2023_lab1_213211>git checkout master
+
+18. C:\Users\Kiki\SI_2023_lab1_213211>git merge bug1
+
+19. C:\Users\Kiki\SI_2023_lab1_213211>git push origin --all
+
+20. C:\Users\Kiki\SI_2023_lab1_213211>git merge bug2
+
+21. C:\Users\Kiki\SI_2023_lab1_213211>git push origin --all
+
+22. C:\Users\Kiki\SI_2023_lab1_213211>git merge bug3
+
+23. C:\Users\Kiki\SI_2023_lab1_213211>git rebase master
+C:\Users\Kiki\SI_2023_lab1_213211>git push --force origin bug3
+
+24. C:\Users\Kiki\SI_2023_lab1_213211>git checkout master
+
+25. C:\Users\Kiki\SI_2023_lab1_213211>git merge bug3
+
+26. C:\Users\Kiki\SI_2023_lab1_213211>git push origin --all
+
+27. C:\Users\Kiki\SI_2023_lab1_213211>git log
+C:\Users\Kiki\SI_2023_lab1_213211>notepad logs.txt
+C:\Users\Kiki\SI_2023_lab1_213211>git add logs.txt
+C:\Users\Kiki\SI_2023_lab1_213211>git commit -m "Logs"
+
+C:\Users\Kiki\SI_2023_lab1_213211>git add --all
+
+
+
+
+
