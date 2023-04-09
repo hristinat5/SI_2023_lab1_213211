@@ -81,6 +81,5 @@ C:\Users\Kiki\SI_2023_lab1_213211>git commit -m "Logs"
 C:\Users\Kiki\SI_2023_lab1_213211>git add --all
 
 
-
-
+//greskata mi e vo toa sto napraviv git merge na bug3 namesto rebase, pa potoa napraviv rebase i imam dopolnitelen commit
 
